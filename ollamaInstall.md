@@ -18,12 +18,12 @@ RestartSec=3
 [Install]
 WantedBy=default.target
 
-sudo systemctl daemon-reload
-sudo systemctl start ollama
+sudo systemctl daemon-reload  
+sudo systemctl start ollama  
 
-ollama run llama2
-tinyllama
-codellama
+ollama run llama2  
+ollama run tinyllama  
+ollama run codellama  
 
 Uninstall
 Remove the ollama service:
