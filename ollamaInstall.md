@@ -3,7 +3,7 @@ sudo chmod +x /usr/bin/ollama
 
 sudo useradd -r -s /bin/false -m -d /usr/share/ollama ollama
 
-Create a service file in /etc/systemd/system/ollama.service:
+Create a service file in /etc/systemd/system/ollama.service:   
 [Unit]
 Description=Ollama Service
 After=network-online.target
