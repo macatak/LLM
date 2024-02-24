@@ -25,8 +25,6 @@ ollama run llama2
 tinyllama
 codellama
 
-
-
 Uninstall
 Remove the ollama service:
 sudo systemctl stop ollama
