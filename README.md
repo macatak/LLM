@@ -8,6 +8,6 @@ These are all works in progress.
     - There is some customization, mainly playing with the arguments in the call.  
     - NOTE :  Current pipeline code is for a system with a GPU. For systems without one remove:
       
-          ```python
+          ```python3
           device=0
           ```
