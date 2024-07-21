@@ -6,7 +6,8 @@ These are all works in progress.
 
   - Hugging Face - Based on the learning paths on the site : https://huggingface.co/learn  
     - There is some customization, mainly playing with the arguments in the call.  
-    - NOTE :  Current pipeline code is for a system with a GPU. For systems without one remove
+    - NOTE :  Current pipeline code is for a system with a GPU. For systems without one remove:
+      
           ```python
           device=0
           ```
