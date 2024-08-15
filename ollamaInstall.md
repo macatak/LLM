@@ -1,4 +1,4 @@
-Cpmmands
+Commands
 
 ```shell
 sudo curl -L https://ollama.com/download/ollama-linux-amd64 -o /usr/bin/ollama
